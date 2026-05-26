@@ -66,21 +66,30 @@ După instalare, deschide un terminal și rulează `claude` o dată pentru a-l a
 
 ### Pasul 2 — Skill-ul
 
-Clonează acest repository în folderul de skill-uri al Claude Code:
+Clonează acest repository oriunde îți convine, apoi instalează doar subfolderul `skills/fisa-disciplinei` în folderul de skill-uri al Claude Code:
 
 ```bash
-git clone <URL-ul-acestui-repo> ~/.claude/skills/fisa-disciplinei
+# Clonare repo (oriunde)
+git clone <URL-ul-acestui-repo> ~/Repositories/fisa-disciplinei
+
+# Instalare skill prin symlink (recomandat — primești actualizări cu `git pull`)
+ln -s ~/Repositories/fisa-disciplinei/skills/fisa-disciplinei ~/.claude/skills/fisa-disciplinei
+
+# Sau, dacă preferi copie (fără update automat)
+# cp -r ~/Repositories/fisa-disciplinei/skills/fisa-disciplinei ~/.claude/skills/
 ```
 
-Sau dacă ai descărcat un ZIP, dezarhivează-l acolo astfel încât să ai structura:
+Structura repo-ului:
 
 ```
-~/.claude/skills/fisa-disciplinei/
-├── README.md
-├── SKILL.md                                          # manualul pe care îl citește Claude
+fisa-disciplinei/                                     # repo clonat
+├── README.md                                         # acest fișier (docs pentru oameni)
 ├── Calculator ore pentru fișa de disciplină v4.xlsx  # sursa de autoritate (Valer Bocan)
-└── scripts/
-    └── verify.py                                     # validatorul automat
+└── skills/
+    └── fisa-disciplinei/                             # ← skill-ul propriu-zis (instalat în ~/.claude/skills/)
+        ├── SKILL.md                                  # manualul pe care îl citește Claude
+        └── scripts/
+            └── verify.py                             # validatorul automat
 ```
 
 ### Pasul 3 — Dependențe Python
