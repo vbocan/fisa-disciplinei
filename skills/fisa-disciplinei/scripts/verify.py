@@ -46,7 +46,7 @@ def extract_text(docx_path):
 _NEXT_LABEL = re.compile(
     r"(?:"
     r"3\.\d\*?\s*(?:Număr|ore\s|Total)"  # 3.X / 3.X* followed by Număr, ore, or Total
-    r"|[4-9]\.\s*\w"                    # next major section (4. Precondiții, etc.)
+    r"|[4-9]\.\s*[^\W\d_]"              # next major section (4. Precondiții, etc.) — letter, not digit
     r"|,\s*format din"
     r"|ore curs"
     r"|ore seminar"
