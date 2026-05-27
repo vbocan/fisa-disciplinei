@@ -39,7 +39,7 @@ Avantajul față de calculatorul Excel oficial (vezi [Originea regulilor](#origi
 
 ## Originea regulilor
 
-Regulile de calcul implementate în acest skill provin din [`Calculator ore pentru fișa de disciplină v4.xlsx`](Calculator%20ore%20pentru%20fi%C8%99a%20de%20disciplin%C4%83%20v4.xlsx) — un calculator Excel realizat de **ș.l.dr.ing. Valer Bocan, CSSLP** (Universitatea Politehnica Timișoara) pe baza normelor DPPD și a Cartei UPT. Fișierul este inclus în acest repository ca **sursă de autoritate** pentru:
+Regulile de calcul implementate în acest skill provin din [`Calculator ore pentru fișa de disciplină v4.xlsx`](Calculator%20ore%20pentru%20fi%C8%99a%20de%20disciplin%C4%83%20v4.xlsx) realizat pe baza normelor DPPD și a Cartei UPT. Fișierul este inclus în acest repository pentru:
 
 - Formulele de derivare a câmpurilor (3.1 până la 3.9), cu detalii pe rotunjire (`ROUNDUP` pentru 3.8) și pe coeficienții de corecție pentru calculul creditelor.
 - Algoritmul de calcul al numărului de credite pe baza timpului total de muncă (Tt), valorii unității de credit (Tt/Cs) și a coeficientului de corecție pe specializare (Ingineri: 0,61 | Arhitecți: 0,44–0,55).
