@@ -7,7 +7,7 @@
 [![Limba: română](https://img.shields.io/badge/limba-română-CE1126)](#)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/vbocan/fisa-disciplinei/pulls)
 
-Un **skill pentru Claude Code** care verifică și actualizează **Fișa Disciplinei** în format Word (`.docx`), folosind regulile standard din șablonul UPT/DPPD. Conceput pentru cadrele didactice care vor să se asigure că aritmetica orelor și conținutul programa-orarei sunt consistente cu materialele de curs și laborator.
+Un **skill pentru Claude Code** care verifică și actualizează **Fișa Disciplinei** în format Word (`.docx`), folosind regulile standard din șablonul UPT/DPPD. Conceput pentru cadrele didactice care vor să se asigure că aritmetica orelor și conținutul fișei sunt consistente cu materialele de curs și laborator.
 
 ## Ce face
 
