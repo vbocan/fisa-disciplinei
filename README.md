@@ -233,6 +233,6 @@ MIT. Folosește, copiază, modifică, redistribuie fără restricții.
 
 ## Autor
 
-**[ș.l.dr.ing. Valer Bocan, CSSLP](https://www.bocan.ro)** — Universitatea Politehnica Timișoara, Facultatea de Automatică și Calculatoare. Autor al calculatorului Excel original (`Calculator ore pentru fișa de disciplină v4.xlsx`) și al acestui skill.
+**[Valer Bocan, CSSLP](https://www.bocan.ro)** — Universitatea Politehnica Timișoara, Facultatea de Automatică și Calculatoare. Autor al calculatorului Excel original (`Calculator ore pentru fișa de disciplină v4.xlsx`) și al acestui skill.
 
 Codul este open source — îmbunătățiri și adaptări pentru alte universități sunt binevenite.
