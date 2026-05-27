@@ -231,8 +231,8 @@ R: Refuzi pur și simplu — "nu, păstrează valoarea inițială" sau "altă va
 
 MIT. Folosește, copiază, modifică, redistribuie fără restricții.
 
-## Autori
+## Autor
 
-**ș.l.dr.ing. Valer Bocan, CSSLP** — Universitatea Politehnica Timișoara, Facultatea de Automatică și Calculatoare. Autor al calculatorului Excel original (`Calculator ore pentru fișa de disciplină v4.xlsx`) și al acestui skill.
+**[ș.l.dr.ing. Valer Bocan, CSSLP](https://www.bocan.ro)** — Universitatea Politehnica Timișoara, Facultatea de Automatică și Calculatoare. Autor al calculatorului Excel original (`Calculator ore pentru fișa de disciplină v4.xlsx`) și al acestui skill.
 
 Codul este open source — îmbunătățiri și adaptări pentru alte universități sunt binevenite.
